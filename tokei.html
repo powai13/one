@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>時計</title>
+    <link rel="stylesheet" href="tokei.css">
+</head>
+<body>
+
+<div id="gamen">
+    <div id="hei">
+        <img src="5bb0cfd44302cd4df0c0c88d37457931.png" id="pika">
+        <h1 id="time"></h1>
+    </div>
+</div>
+    <script>
+        time();
+        function time() {
+            document.getElementById('time').innerHTML = new Date().toLocaleTimeString();
+        }
+        setInterval('time()',1000);
+    </script>
+</body>
+</html>
