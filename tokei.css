@@ -1,0 +1,38 @@
+#time {
+    border: solid;
+    border-radius: 8px;
+    width: 32mm;
+    display: inline-block;
+    background-color: white;
+
+    margin-top: 60mm;
+    z-index: 2;
+
+    position:relative;
+}
+
+#hei {
+    width: 75.7mm;
+    height: 150.9mm;
+    border: solid;
+    text-align: center;
+ /* display: table-cell; /* IE8から使用可能 */
+ /* vertical-align: middle; */
+
+ position: relative;
+}
+
+#gamen {
+    width: 75.7mm;
+    height: 150.9mm;
+}
+
+#pika {
+    transform: scale(-1, 1);
+    width: 100%;
+    top: 20mm;
+    right: 25mm;
+    position: absolute;
+
+    z-index: 1;
+}
